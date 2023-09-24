@@ -14,6 +14,6 @@ class Main extends Sprite {
 		startFullscreen: false // if the game should start at fullscreen mode
 	    };
         // 将圆环形状添加到舞台上
-        addChild(new FlxGame(game.width, game.height, game.initialState, game.framerate, game.framerate, game.skipSplash, game.startFullscreen))
+        addChild(new FlxGame(game.width, game.height, game.initialState, game.framerate, game.framerate, game.skipSplash, game.startFullscreen));
     }
 }
