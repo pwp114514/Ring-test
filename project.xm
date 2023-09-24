@@ -6,7 +6,7 @@
 
 	<!--Application Settings-->
 
-	<meta title="hxVLC Sample (Flixel)" packageName="com.majigsaw77.hxvlc" package="com.majigsaw77.hxvlc" version="0.0.1" company="MAJigsaw77" />
+	<meta title="YYYYYYYY" packageName="com.pwp114514.YYYYYYY" package="com.pwp114514.YYYYYYY" version="0.0.1" company="pwp114514" />
 
 	<app file="Sample" main="Main" path="export" preloader="flixel.system.FlxPreloader" />
 
@@ -28,10 +28,6 @@
 
 	<haxelib name="flixel" />
 
-	<section if="cpp">
-		<haxelib name="hxvlc" if="desktop || android" />
-	</section>
-
 	<haxelib name="extension-androidtools" if="android" />
 
 	<!--Libraries Settings-->
@@ -40,8 +36,6 @@
 	<haxedef name="FLX_NO_KEYBOARD" if="mobile" />
 	<haxedef name="FLX_NO_TOUCH" if="desktop" />
 	<haxedef name="FLX_NO_DEBUG" unless="debug" />
-
-	<haxedef name="HXVLC_LOGGING" if="debug" />
 
 	<!--DPI Awareness-->
 
